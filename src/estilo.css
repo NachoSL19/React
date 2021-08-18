@@ -21,3 +21,9 @@ a {
     align-items: center;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3) ;
 }
+
+#lista {
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: space-around;
+}
