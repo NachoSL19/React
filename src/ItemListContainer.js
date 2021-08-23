@@ -1,4 +1,9 @@
+import ItemCount from "./ItemCount";
+
 const ItemListContainer= () => {
+
+  const test = () => {}
+
     return (
     <div id="lista">
     <h2 class="titulo">Disponible</h2>
@@ -10,6 +15,7 @@ const ItemListContainer= () => {
     <a href="#"><li><img src="imagenes/gabinete.jpg" height="50px"></img>Gabinete</li></a> 
     <a href="#"><li><img src="imagenes/monitor.jpg" height="50px"></img>Monitor</li></a> 
     </ul>
+    <ItemCount stock={5} onAdd={test} initial={1}/>
     </div>
     )
   }
