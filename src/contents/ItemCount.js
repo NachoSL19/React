@@ -32,16 +32,6 @@ if(stock > 0){
         </div>
     )
   }
-else{
-    return (
-        <div>
-            <p>Aca va el contador: {contador}</p>
-            <button onClick={sumar}>+</button>
-            <button onClick={restar}>-</button>
-            <button disabled={agregar}>Agregar al carrito</button>
-        </div>
-    );
-  }
 }
 
 export default ItemCount;
