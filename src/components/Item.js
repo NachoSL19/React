@@ -1,4 +1,5 @@
 const Item = () => {
+
 return (
 <header>
 <div id="lista">
@@ -15,45 +16,5 @@ return (
 </header>
 )
 }
-
-const datos = [{
-    id: 1,
-    title: 'auriculares',
-    price: 15000
-},{ 
-    id: 2,
-    title: 'notebook',
-    price: 78000
-},
-{ 
-    id: 3,
-    title: 'mouse',
-    price: 10000
-},
-{ 
-    id: 4,
-    title: 'teclado',
-    price: 11000
-},
-{ 
-    id: 5,
-    title: 'gabinete',
-    price: 7000
-},
-{ 
-    id: 6,
-    title: 'monitor',
-    price: 37000
-}];
-
-const getDatos = () => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(datos);
-        },2000);
-    })
-}
-
-getDatos().then((datos) => console.log(datos));
 
 export default Item;
